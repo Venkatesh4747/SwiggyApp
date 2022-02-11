@@ -122,17 +122,17 @@
     </ion-slides>
   </ion-card>
 
-  <ion-card class="margin-size">
+  <!-- <ion-card>
     <ion-card-header>
       <ion-card-title>Today's Featured</ion-card-title>
     </ion-card-header>
-    <ion-card-content class="ion-no-padding margin-size">
-      <ion-slides [options]="offer">
+    <ion-card-content class="ion-no-padding">
+      <ion-slides loop="false" speed="500" pager="true" spaceBetween="0" direction="vertical" slidesPerView="2" effect="slide" pager="false" zoom="false">
         <ion-slide *ngFor="let foods of todayOffer">
-          <div class="flex-content">
-            <img class="card-popular" [src]="foods.imageUrl">
-          </div>
+          <ion-card>
+            <img [src]="foods.imageUrl">
+          </ion-card>
         </ion-slide>
       </ion-slides>
     </ion-card-content>
-  </ion-card>
+  </ion-card> -->

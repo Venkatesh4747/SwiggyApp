@@ -15,8 +15,7 @@ export class HomePage {
 
   offer = {
     slidesPerView: 1,
-    spaceBetween: 10,
-    slidesPerColumn: 1,
+    spaceBetween: 0,
     pager: true
   }
 
