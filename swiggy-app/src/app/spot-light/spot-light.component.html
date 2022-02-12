@@ -16,5 +16,27 @@
   <ion-card-subtitle>
     Explore sponsored partner brands
   </ion-card-subtitle>
-
+  <ion-card-content>
+    <ion-slides [options]="foodSlideOptions">
+      <ion-slide *ngFor="let foods of hotelLists">
+        <div class="flex-content">
+          <div>
+            <ion-card class="card-size">
+              <img [src]="foods.imageUrl">
+            </ion-card>
+          </div>
+          <div class="flex-content">
+            <div class="align-content">
+              <ion-text>{{ foods.hotelName }}</ion-text>
+            </div>
+            <div class="rateimg">
+              <ion-icon name="star-outline">
+              </ion-icon>
+              <ion-text>{{foods.rating}} . {{foods.mins}}</ion-text>
+            </div>
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </ion-card-content>
 </ion-card>

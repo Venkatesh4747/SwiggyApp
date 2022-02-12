@@ -1,6 +1,35 @@
-<ion-header>
+<ion-header class="headerMargin">
   <ion-toolbar>
-    <ion-title>Swiggy</ion-title>
+    <div class="flex-row">
+      <div class="flex-pad">
+        <div class="flex-dir">
+          <div>
+            <ion-icon class="locationIcon" name="location-outline"></ion-icon>
+          </div>
+          <div>
+            <ion-text class="mar-top">
+              Other
+            </ion-text>
+          </div>
+        </div>
+        <div>
+          <ion-text class="addressAlign">
+            06, Natesan Nagar, IG Square, Villianur Main Rd, Pondi.....
+          </ion-text>
+        </div>
+      </div>
+      <div class="off-width">
+        <div class="flexEnd">
+          <div class="mar-right">
+            <ion-icon name="logo-apple-ar"></ion-icon>
+          </div>
+          <div>
+            <ion-text>Offers</ion-text>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </ion-toolbar>
 </ion-header>
 
@@ -39,103 +68,13 @@
   <ion-card color="warning">
     <ion-img src="../../assets/images/food3.jpeg"></ion-img>
   </ion-card>
-
-  <!-- <div class="flex-pad">
-    <div>
-      <ion-icon color="warning" class="icon-size" name="thumbs-up-outline"></ion-icon>
-    </div>
-    <div>
-      <ion-text color="dark">
-        <h4 class="mar-top">Top Picks For You</h4>
-      </ion-text>
-    </div>
-  </div> -->
-
-  <!-- <ion-slides [options]="foodSlideOptions">
-    <ion-slide *ngFor="let foods of food">
-      <div class="flex-content">
-        <div>
-          <ion-card class="card-size">
-            <img [src]="foods.imageUrl">
-          </ion-card>
-        </div>
-        <div class="flex-content">
-          <div class="align-content">
-            <ion-text>{{ foods.hotelName }}</ion-text>
-          </div>
-          <div class="rateimg">
-            <ion-icon name="star-outline">
-            </ion-icon>
-            <ion-text>{{foods.rating}} . {{foods.mins}}</ion-text>
-          </div>
-        </div>
-      </div>
-    </ion-slide>
-  </ion-slides>
-
-  <ion-card class="margin-size">
-    <ion-card-header>
-      <ion-card-title>Popular Creations</ion-card-title>
-    </ion-card-header>
-    <ion-card-content class="ion-no-padding margin-size">
-      <ion-slides [options]="foodSlideOptions">
-        <ion-slide *ngFor="let foods of popularItem">
-          <div class="flex-content">
-            <img class="card-popular" [src]="foods.imageUrl">
-            <ion-text>{{ foods.foodName }}</ion-text>
-          </div>
-        </ion-slide>
-      </ion-slides>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card class="margin-size-spot">
-    <in-card-header>
-      <ion-card-title class="text-align">
-        <ion-icon name="home-outline"></ion-icon>
-        <ion-text class="text-align">In the Spotlight!</ion-text>
-      </ion-card-title>
-      <ion-card-subtitle>
-        <ion-text class="text-align">Explore sponsored partner brands</ion-text>
-      </ion-card-subtitle>
-    </in-card-header>
-    <ion-slides [options]="foodSlideOptions">
-      <ion-slide *ngFor="let foods of food">
-        <div class="flex-content">
-          <div>
-            <ion-card class="card-size">
-              <img [src]="foods.imageUrl">
-            </ion-card>
-          </div>
-          <div class="flex-content">
-            <div class="align-content">
-              <ion-text>{{ foods.hotelName }}</ion-text>
-            </div>
-            <div class="rateimg">
-              <ion-icon name="star-outline">
-              </ion-icon>
-              <ion-text>{{foods.rating}} . {{foods.mins}}</ion-text>
-            </div>
-          </div>
-        </div>
-      </ion-slide>
-    </ion-slides>tions">
-    <ion-slide 
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Today's Featured</ion-card-title>
-    </ion-card-header>
-    <ion-card-content class="ion-no-padding">
-      <ion-slides loop="false" speed="500" pager="true" spaceBetween="0" direction="vertical" slidesPerView="2" effect="slide" pager="false" zoom="false">
-        <ion-slide *ngFor="let foods of todayOffer">
-          <ion-card>
-            <img class="imgSize" [src]="foods.imageUrl">
-          </ion-card>
-        </ion-slide>
-      </ion-slides>
-    </ion-card-content>
-  </ion-card> -->
   <app-slider [hotelLists]="hotelList"></app-slider>
   <app-popular-creation [popLists]="popList"></app-popular-creation>
-  <app-spot-light [todayOffers]="todayOffer"></app-spot-light>
+  <app-spot-light [hotelLists]="hotelList"></app-spot-light>
 </ion-content>
+
+<!-- <ion-footer>
+  <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
+</ion-footer>  -->

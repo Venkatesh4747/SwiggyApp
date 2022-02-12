@@ -27,3 +27,55 @@
         margin-top: -35px;
     }
 }
+
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-size {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .ios .align-content {
+    margin-top: -10px;
+    font-size: 16px;
+    float: left;
+    margin-left: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .md .align-content {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 16px;
+    float: left;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+.rateimg {
+    font-size: 11px;
+    margin-top: 6px;
+    width: fit-content;
+    margin-left: 15px;
+  }
+
+  .flexDir {
+      display: flex;
+      flex-direction: column;
+  }
+  
