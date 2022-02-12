@@ -1,0 +1,29 @@
+.flex-pad {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-top: -8px;
+}
+
+.card-margin {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.mar-top {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+:host ::ng-deep {
+    .swiper-wrapper {
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: -25px;
+    }
+    ion-card-subtitle {
+        padding: 20px;
+        margin-top: -35px;
+    }
+}

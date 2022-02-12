@@ -40,7 +40,7 @@
     <ion-img src="../../assets/images/food3.jpeg"></ion-img>
   </ion-card>
 
-  <div class="flex-pad">
+  <!-- <div class="flex-pad">
     <div>
       <ion-icon color="warning" class="icon-size" name="thumbs-up-outline"></ion-icon>
     </div>
@@ -49,9 +49,9 @@
         <h4 class="mar-top">Top Picks For You</h4>
       </ion-text>
     </div>
-  </div>
+  </div> -->
 
-  <ion-slides [options]="foodSlideOptions">
+  <!-- <ion-slides [options]="foodSlideOptions">
     <ion-slide *ngFor="let foods of food">
       <div class="flex-content">
         <div>
@@ -119,10 +119,9 @@
           </div>
         </div>
       </ion-slide>
-    </ion-slides>
-  </ion-card>
-
-  <!-- <ion-card>
+    </ion-slides>tions">
+    <ion-slide 
+  <ion-card>
     <ion-card-header>
       <ion-card-title>Today's Featured</ion-card-title>
     </ion-card-header>
@@ -130,9 +129,13 @@
       <ion-slides loop="false" speed="500" pager="true" spaceBetween="0" direction="vertical" slidesPerView="2" effect="slide" pager="false" zoom="false">
         <ion-slide *ngFor="let foods of todayOffer">
           <ion-card>
-            <img [src]="foods.imageUrl">
+            <img class="imgSize" [src]="foods.imageUrl">
           </ion-card>
         </ion-slide>
       </ion-slides>
     </ion-card-content>
   </ion-card> -->
+  <app-slider [hotelLists]="hotelList"></app-slider>
+  <app-popular-creation [popLists]="popList"></app-popular-creation>
+  <app-spot-light [todayOffers]="todayOffer"></app-spot-light>
+</ion-content>
