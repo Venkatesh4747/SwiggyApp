@@ -7,8 +7,16 @@ ion-card-title {
     font-size: 20px;
 }
 
-ion-text {
-    margin-top: -28px;
+// ion-text {
+//     margin-top: -20px;
+// }
+
+// .md ion-text {
+//     margin-top: -9px;
+// }
+
+.md-mode {
+    margin-top: -9px;
 }
 
 .flex-content {
@@ -24,7 +32,7 @@ ion-text {
     .swiper-wrapper {
       align-items: center !important;
       justify-content: center !important;
-      margin-top: -25px;
+      margin-top: -15px;
     }
     .card-box {
         box-shadow: none !important;
