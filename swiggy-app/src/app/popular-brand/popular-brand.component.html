@@ -1,0 +1,48 @@
+<!-- <ion-card>
+  <ion-card-header>
+    <ion-card-title>Popular Brands</ion-card-title>
+  </ion-card-header>
+
+  <ion-slides [options]="brandSlide">
+    <ion-slide *ngFor="let list of brandList">
+      <ion-card class="card-size">
+        <div class="alignItem">
+          <img [src]="list.brandImage">
+          <div *ngIf="list.offer && list.limit">
+            <div class="border">
+            </div>
+          </div>
+          <ion-text>{{list.offer}}</ion-text>
+          <ion-text>{{list.time}}</ion-text>
+        </div>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+</ion-card> -->
+
+<ion-card class="margin">
+  <ion-card-header>
+    <ion-card-title>Popular Brands</ion-card-title>
+  </ion-card-header>
+
+  <ion-slides [options]="brandSlide" padding>
+    <ion-slide *ngFor="let list of brandList">
+      <div class="flex">
+        <div>
+          <ion-card class="card-size">
+            <img [src]="list.brandImage">
+          </ion-card>
+        </div>
+        <div>
+          <ion-text class="text">{{ list.brandName }}</ion-text>
+        </div>
+      </div>
+      <!-- <ion-card class="card-size">
+        <img [src]="list.brandImage">
+      </ion-card>
+      <ion-tex>{{ list.offer }}</ion-text> -->
+    </ion-slide>
+  </ion-slides>
+
+</ion-card>

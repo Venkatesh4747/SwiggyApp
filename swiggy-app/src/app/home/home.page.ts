@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FoodDetailsService } from '../shared/service/food-details.service';
 import { debounceTime } from 'rxjs/operators';
-import { hotelDetails, popularItem, todayOffer } from '../shared/model/food.modal';
+import { hotelDetails, popularBrands, popularItem, todayOffer } from '../shared/model/food.modal';
 
 
 @Component({
@@ -127,7 +127,8 @@ export class HomePage {
   // ]
   hotelList: hotelDetails[];
   popList: popularItem[];
-  todayOffer: todayOffer[];
+  todayOffers: todayOffer[];
+  popBrands: popularBrands[];
 
   constructor(
     private http: HttpClient
@@ -147,9 +148,10 @@ export class HomePage {
       setTimeout(() => {
       }, 800);
        this.hotelList= res.data.hotelDetails;
-       this.popList= res.data1.popularItem
-       this.todayOffer= res.data2.todayOffer
-       console.log('hotel list', this.popList)
+       this.popList= res.data1.popularItem;
+       this.todayOffers= res.data2.todayOffer;
+       this.popBrands= res.data3.popularBrands;
+       console.log('hotel list', this.popBrands)
     });
   }
 

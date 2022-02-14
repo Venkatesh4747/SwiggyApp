@@ -13,3 +13,11 @@ export interface popularItem {
 export interface todayOffer {
     imageUrl: string;
 }
+
+export interface popularBrands {
+    brandImage: string;
+    brandName: string;
+    time: string;
+    offer: string;
+    limit: string;
+}

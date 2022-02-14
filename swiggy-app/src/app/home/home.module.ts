@@ -8,6 +8,8 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { PopularCreationComponent } from '../popular-creation/popular-creation.component';
 import { SpotLightComponent } from '../spot-light/spot-light.component';
+import { TodayFeaturesComponent } from '../today-features/today-features.component';
+import { PopularBrandComponent } from '../popular-brand/popular-brand.component';
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { SpotLightComponent } from '../spot-light/spot-light.component';
     SharedModule
   ],
   declarations: [
-    HomePage, PopularCreationComponent, SpotLightComponent
+    HomePage, PopularCreationComponent, SpotLightComponent, TodayFeaturesComponent,
+    PopularBrandComponent
   ]
 })
 export class HomePageModule {}

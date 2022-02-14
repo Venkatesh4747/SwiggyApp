@@ -82,22 +82,72 @@
     "data2": {
         "todayOffer": [
             {
-                "imageUrl": "assets/images/off1.png"
+                "imageUrl": "assets/images/off.png"
             },
             {
-                "imageUrl": "assets/images/off2.jpg"
+                "imageUrl": "https://images.freekaamaal.com/post_images/1606887324.jpg"
             },
             {
-                "imageUrl": "assets/images/off1.jpg"
+                "imageUrl": "https://www.dealsshutter.com/uploads/social_images/stores/swiggy-coupons-social-image-final-1621831150.jpg"
             },
             {
-                "imageUrl": "assets/images/off4.jpg"
+                "imageUrl": "https://indianoffers.in/images/product/detail/thumb/1573320994swiggy-coupons-offers-19.jpeg"
             },
             {
-                "imageUrl": "assets/images/off5.png"
+                "imageUrl": "https://hotdealszone.com/wp-content/uploads/2019/08/Amazon-Pay-Swiggy-Rs-30-cashback-1024x398.jpg"
             },
             {
-                "imageUrl": "assets/images/off6.png"
+                "imageUrl": "https://i.pinimg.com/originals/23/a6/85/23a6857e4809730c5039f08d77872ed3.png"
+            }
+        ]
+    },
+    "data3": {
+        "popularBrands": [
+            {
+                "brandImage": "https://www.citypng.com/public/uploads/preview/-11600735522qbwj7xtpxu.png",
+                "brandName": "McDonald's",
+                "time": "35 mins",
+                "offer": "30% OFF",
+                "limit": "UPTO ₹75"
+            },
+            {
+                "brandImage": "https://www.pngitem.com/pimgs/m/283-2837549_banana-leaf-png-banana-leaf-logo-png-transparent.png",
+                "brandName": "Bana Leaf",
+                "time": "40 mins"
+            },
+            {
+                "brandImage": "https://1000logos.net/wp-content/uploads/2017/03/Kfc_logo.png",
+                "brandName": "KFC",
+                "time": "30 mins"
+            },
+            {
+                "brandImage": "https://aabsweets.com/assets/img/logo-a2b.png",
+                "brandName": "A2B Veg",
+                "time": "20 mins",
+                "offer": "50% OFF",
+                "limit": "UPTO ₹100"
+            },
+            {
+                "brandImage": "https://www.freepnglogos.com/uploads/dominos-png-logo/blue-wave-pressure-washing-dominos-png-logo-0.png",
+                "brandName": "Domino's",
+                "time": "40 mins"
+            },
+            {
+                "brandImage": "https://www.freepnglogos.com/uploads/pizza-hut-png-logo/pizza-hut-brands-png-logo-8.png",
+                "brandName": "Piza Hut",
+                "time": "35 mins"
+            },
+            {
+                "brandImage": "https://www.freepnglogos.com/uploads/subway-png-logo/inspired-business-media-subway-logo-0.png",
+                "brandName": "Subway",
+                "time": "25 mins"
+            },
+            {
+                "brandImage": "https://1000logos.net/wp-content/uploads/2017/03/Kfc_logo.png",
+                "brandName": "Taka Piza",
+                "time": "40 mins",
+                "offer": "40% OFF",
+                "limit": "UPTO ₹100"
             }
         ]
     }
