@@ -1,6 +1,7 @@
 .card-margin {
-    margin: 10% 0% 0% 0%;;
-    // margin-top: 5px;
+    // margin: 10% 0% 0%;
+    margin-top: 5px;
+    margin: 0;
 }
 
 ion-card-title {
@@ -16,7 +17,8 @@ ion-card-title {
 // }
 
 .md-mode {
-    margin-top: -9px;
+    margin-top: -13px;
+    font-size: 13px;
 }
 
 .flex-content {
@@ -32,10 +34,19 @@ ion-card-title {
     .swiper-wrapper {
       align-items: center !important;
       justify-content: center !important;
-      margin-top: -15px;
     }
     .card-box {
         box-shadow: none !important;
+        height: 50px;
+        // width: 100%;
     }
-  
+    .swiper-container {
+        bottom: 20px;
+    }
+    ion-card-content {
+        padding: 0%;
+    }
+    ion-card-title{
+        font-weight: bolder;
+    }
   }

@@ -11,7 +11,7 @@ export class TodayFeaturesComponent implements OnInit {
   @Input() featureList: todayOffer;
 
   foodSlideOptions = {
-    slidesPerView: 1.3,
+    slidesPerView: 1.1,
     spaceBetween: 5,
     
   }

@@ -1,12 +1,14 @@
-<ion-card>
+<ion-card class="margin">
   <ion-card-header>
     <ion-card-title>Today's Feature</ion-card-title>
   </ion-card-header>
-  <ion-slides pager="true" loop="true" [options]="foodSlideOptions">
-    <ion-slide *ngFor="let feature of image">
+  <ion-card-content>
+    <ion-slides pager="true" loop="true" [options]="foodSlideOptions">
+      <ion-slide *ngFor="let feature of image">
         <ion-card class="size">
           <img [src]="feature.imageUrl">
         </ion-card>
-    </ion-slide>
-  </ion-slides>
+      </ion-slide>
+    </ion-slides>
+  </ion-card-content>
 </ion-card>

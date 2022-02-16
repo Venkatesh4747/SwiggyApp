@@ -5,6 +5,10 @@
   margin-top: -8px;
 }
 
+.header-icon {
+  color: #f94d00;
+}
+
 .mar-top {
   margin-top: 10px;
   margin-left: 10px;
@@ -15,24 +19,19 @@
   .swiper-wrapper {
     align-items: center !important;
     justify-content: center !important;
-    // margin-top: -20px;
+  }
+  .swiper-container {
+    bottom: 20px;
   }
   .margin-size {
     margin: 0%;
-    
+    ion-card-content {
+      padding: 0%;
+    }
   }
   ion-card {
     box-shadow: none !important;
-}
-  // md.margin-size {
-  //   margin: 0%;
-  //   // margin-top: 10px;
-  // }
-  // .margin-size-spot {
-  //   margin: 0%;
-  //   margin-top: 15px;
-  // }
-
+  }
 }
 
 .flex-content {
@@ -58,39 +57,26 @@ img {
   margin-left: 15px;
 }
 
-
 .ios .align-content {
   margin-top: -10px;
-  font-size: 16px;
-  float: left;
+  font-size: 13px;
+  // float: left;
   margin-left: 15px;
-  font-weight: 500;
+  font-weight: bolder;
+  color: black;
   display: flex;
   flex-direction: column;
   width: fit-content;
 }
 
 .md .align-content {
-  font-weight: 500;
+  font-weight: bolder;
+  color: black;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 13px;
   float: left;
   margin-left: 15px;
   display: flex;
   flex-direction: column;
   width: fit-content;
 }
-
-// :host ::ng-deep {
-//   .swiper-wrapper {
-//     align-items: center !important;
-//     justify-content: center !important;
-//     margin-top: -30px;
-//   }
-//   ion-card {
-//       box-shadow: none !important;
-//   }
-
-// }
-
-
