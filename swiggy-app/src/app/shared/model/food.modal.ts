@@ -21,3 +21,8 @@ export interface popularBrands {
     offer: string;
     limit: string;
 }
+
+export interface popularCuisines {
+    imageUrl: string;
+    foodName: string;
+}

@@ -197,5 +197,28 @@
                 "limit": "UPTO ₹100"
             }
         ]
+    },
+    "data4": {
+        "popular": [
+            {
+                "imageUrl": "https://icon2.cleanpng.com/20180330/axe/kisspng-hyderabadi-biryani-indian-cuisine-dish-chicken-mea-biryani-5abedc42d00da9.6620510115224576668522.jpg"
+            },
+            {
+                "imageUrl": "https://www.seekpng.com/png/small/218-2181124_italian-dessert-crostata-di-arance-at-massimo-bali.png"
+            },
+            {
+                "imageUrl": "https://w7.pngwing.com/pngs/256/294/png-transparent-pizza-cafe-with-friends-mytishchi-salami-sushi-pizza-food-cafe-plate.png"
+            },
+            {
+                "imageUrl": "https://w7.pngwing.com/pngs/334/621/png-transparent-breakfast-idli-tiffin-food-vegetarian-cuisine-idly-recipe-fruit-ice-cream.png"
+            },
+            {
+                "imageUrl": "https://www.vhv.rs/dpng/d/587-5876751_plate-of-food-png-transparent-png.png"
+            },
+            {
+                "imageUrl": "https://w7.pngwing.com/pngs/36/27/png-transparent-roasted-chicken-with-lemons-roast-chicken-barbecue-chicken-buffalo-wing-roast-goose-chicken-food-animals-recipe-thumbnail.png"
+            }
+        ]
     }
+
 }

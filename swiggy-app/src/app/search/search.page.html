@@ -1,9 +1,54 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>search</ion-title>
+    <ion-searchbar placeholder="Search for restaurant, item or more"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-card class="margin">
+    <ion-card-header>
+      <ion-card-title>
+        Trending Searches
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-chip outline="true">
+        <ion-icon name="trending-up-outline"></ion-icon>
+        <ion-label>Hotel Banana leaf</ion-label>
+      </ion-chip>
+      <ion-chip outline="true">
+        <ion-icon name="trending-up-outline"></ion-icon>
+        <ion-label>Hotel Chillis</ion-label>
+      </ion-chip>
+      <ion-chip outline="true">
+        <ion-icon name="trending-up-outline"></ion-icon>
+        <ion-label>Panner Butter Massala</ion-label>
+      </ion-chip>
+      <ion-chip outline="true">
+        <ion-icon name="trending-up-outline"></ion-icon>
+        <ion-label>Hotel Geetham</ion-label>
+      </ion-chip>
+      <ion-chip outline="true">
+        <ion-icon name="trending-up-outline"></ion-icon>
+        <ion-label>Biriyani</ion-label>
+      </ion-chip>
+    </ion-card-content>
+  </ion-card>
 
+  <ion-card class="margin">
+    <ion-card-header>
+      <ion-card-title>
+        Popular Cuisines
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-slides [options]="popularSlide">
+        <ion-slide *ngFor="let list of popular">
+          <ion-card class="card-size">
+            <img [src]="list.imageUrl">
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
