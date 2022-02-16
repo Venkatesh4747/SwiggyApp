@@ -10,6 +10,7 @@ import { PopularCreationComponent } from '../popular-creation/popular-creation.c
 import { SpotLightComponent } from '../spot-light/spot-light.component';
 import { TodayFeaturesComponent } from '../today-features/today-features.component';
 import { PopularBrandComponent } from '../popular-brand/popular-brand.component';
+import { NearbyRestaurantsComponent } from '../nearby-restaurants/nearby-restaurants.component';
 
 
 @NgModule({
@@ -22,7 +23,7 @@ import { PopularBrandComponent } from '../popular-brand/popular-brand.component'
   ],
   declarations: [
     HomePage, PopularCreationComponent, SpotLightComponent, TodayFeaturesComponent,
-    PopularBrandComponent
+    PopularBrandComponent, NearbyRestaurantsComponent
   ]
 })
 export class HomePageModule {}

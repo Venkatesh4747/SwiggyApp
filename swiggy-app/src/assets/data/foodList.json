@@ -5,49 +5,96 @@
                 "hotelName": "Banana Leaf",
                 "rating": 4.3,
                 "imageUrl": "assets/images/biryani.jpg",
-                "mins": "46 mins"
+                "mins": "46 mins",
+                "dishType": "South Indian",
+                "city": "Saram",
+                "cash": "₹250 for two",
+                "off": "50% OFF",
+                "upto": "UPTO ₹100"
             },
             {
                 "hotelName": "Cake World",
                 "rating": 4.0,
                 "imageUrl": "assets/images/cake.jpg",
-                "mins": "35 mins"
+                "mins": "35 mins",
+                "dishType": "South Indian, North Indian",
+                "city": "Heritage Town",
+                "cash": "₹150 for two",
+                "off": "40% OFF",
+                "upto": "UPTO ₹100"
+
             },
             {
                 "hotelName": "Juice Shop",
                 "rating": 4.5,
                 "imageUrl": "assets/images/juice.jpeg",
-                "mins": "20 mins"
+                "mins": "20 mins",
+                "city": "IG square",
+                "cash": "₹50 for two",
+                "off": "50% OFF",
+                "upto": "UPTO ₹100"
+
+
             },
             {
                 "hotelName": "KFC",
                 "rating": 4.1,
                 "imageUrl": "assets/images/kfc.jpg",
-                "mins": "40 mins"
+                "mins": "40 mins",
+                "city": "Heritage Town",
+                "cash": "₹250 for two",
+                "off": "50% OFF",
+                "upto": "UPTO ₹100"
+
+
             },
             {
                 "hotelName": "BBQ",
                 "rating": 4.0,
                 "imageUrl": "assets/images/bbq.jpeg",
-                "mins": "35 mins"
+                "mins": "35 mins",
+                "dishType": "North Indian",
+                "city": "Saram",
+                "cash": "₹450 for two",
+                "off": "50% OFF",
+                "upto": "UPTO ₹100"
+
             },
             {
                 "hotelName": "Cake World",
                 "rating": 4.0,
                 "imageUrl": "assets/images/cake.jpg",
-                "mins": "35 mins"
+                "mins": "35 mins",
+                "city": "lawspet",
+                "cash": "₹500 for two",
+                "off": "50% OFF",
+                "upto": "UPTO ₹100"
+
+
             },
             {
                 "hotelName": "KFC",
                 "rating": 4.1,
                 "imageUrl": "assets/images/kfc.jpg",
-                "mins": "40 mins"
+                "mins": "40 mins",
+                "dishType": "South Indian",
+                "city": "pondy",
+                "cash": "₹250 for two",
+                "off": "50% OFF",
+                "upto": "UPTO ₹100"
+
             },
             {
                 "hotelName": "Cake World",
                 "rating": 4.0,
                 "imageUrl": "assets/images/cake.jpg",
-                "mins": "35 mins"
+                "mins": "35 mins",
+                "city": "Nehru st",
+                "cash": "₹200 for two",
+                "off": "50% OFF",
+                "upto": "UPTO ₹100"
+
+
             }
         ]
     },

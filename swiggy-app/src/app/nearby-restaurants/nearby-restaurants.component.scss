@@ -1,0 +1,135 @@
+ion-card-subtitle {
+    margin-left: 15px;
+}
+
+.card-size {
+    height: 100px;
+    width: 90px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.margin-size {
+    margin: 10% 0% 0% 0%;
+}
+
+ion-card-content {
+    padding: 0%;
+}
+
+.text-style {
+    font-weight: bolder;
+}
+
+.text-align {
+    font-size: 10px;
+    color: black;
+}
+
+.text-color {
+    font-size: 10px;
+    color: gray;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    right: 22px;
+    background: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.text-off {
+    font-size: 15px;
+    color: #f94d00;
+    font-weight: bolder;
+}
+.text-upto {
+    font-size: 9px;
+    color: #f94d00;
+    font-weight: bolder;
+}
+
+// ion-button {
+//     --background:  #f94d00;
+// }
+
+.margin-top {
+    margin-top: 20px;
+    ion-button {
+        --background: #f94d00;
+    }
+}
+
+// .icon-size {
+//     font-size: 50px;
+//     display: flex;
+// }
+
+.icon-size {
+    display: flex;
+    align-items: center;
+
+    ion-icon {
+        font-size: 35px;
+    }
+    p {
+        font-size: 7px;
+    }
+}
+// ion-card-content {
+//     .background {
+//         --background: antiquewhite;
+//     }
+// }
+
+.background {
+    --background: antiquewhite;
+}
+
+:host {
+  .background-image {
+    background: url("../../assets/images/unity.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+  }
+}
+
+.text-bolder {
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.text-adjust {
+    font-size: 10px;
+}
+
+a {
+    // background-color: transparent;
+    color: black;
+    font-size: 10px;
+}
+
+.card-align {
+    margin: 10% 0% 0% 0%;
+    box-shadow: none;
+}
+
+.headerIcon {
+    color: #f94d00;
+}
