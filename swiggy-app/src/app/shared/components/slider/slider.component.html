@@ -1,6 +1,6 @@
 <!-- <ion-card> -->
-  <!-- <ion-card-content class="center"> -->
-    <!-- <div class="flex-pad">
+<!-- <ion-card-content class="center"> -->
+<!-- <div class="flex-pad">
       <div>
         <ion-icon color="warning" class="icon-size" name="thumbs-up-outline"></ion-icon>
       </div>
@@ -10,9 +10,9 @@
         </ion-text>
       </div>
     </div> -->
-  <!-- </ion-card-content> -->
+<!-- </ion-card-content> -->
 
-  <!-- <ion-slides [options]="foodSlideOptions">
+<!-- <ion-slides [options]="foodSlideOptions">
     <ion-slide *ngFor="let foods of hotelLists">
       <div class="flex-content">
         <div>
@@ -35,7 +35,7 @@
   </ion-slides>
 </ion-card> -->
 
-<ion-card  class="margin-size">
+<ion-card class="margin-size">
   <ion-card-header>
     <ion-card-title>
       <div class="flex-pad">
@@ -50,25 +50,27 @@
       </div>
     </ion-card-title>
   </ion-card-header>
-  <ion-slides [options]="foodSlideOptions">
-    <ion-slide *ngFor="let foods of hotelLists">
-      <div class="flex-content">
-        <div>
-          <ion-card class="card-size">
-            <img [src]="foods.imageUrl">
-          </ion-card>
-        </div>
+  <ion-card-content>
+    <ion-slides [options]="foodSlideOptions">
+      <ion-slide *ngFor="let foods of hotelLists">
         <div class="flex-content">
-          <div class="align-content">
-            <ion-text>{{ foods.hotelName }}</ion-text>
+          <div>
+            <ion-card class="card-size">
+              <img [src]="foods.imageUrl">
+            </ion-card>
           </div>
-          <div class="rateimg">
-            <ion-icon name="star-outline">
-            </ion-icon>
-            <ion-text>{{foods.rating}} . {{foods.mins}}</ion-text>
+          <div class="flex-content">
+            <div class="align-content">
+              <ion-text>{{ foods.hotelName }}</ion-text>
+            </div>
+            <div class="rateimg">
+              <ion-icon name="star-outline">
+              </ion-icon>
+              <ion-text>{{foods.rating}} . {{foods.mins}}</ion-text>
+            </div>
           </div>
         </div>
-      </div>
-    </ion-slide>
-  </ion-slides>
+      </ion-slide>
+    </ion-slides>
+  </ion-card-content>
 </ion-card>

@@ -19,7 +19,11 @@
   }
   .margin-size {
     margin: 0%;
+    
   }
+  ion-card {
+    box-shadow: none !important;
+}
   // md.margin-size {
   //   margin: 0%;
   //   // margin-top: 10px;
@@ -77,16 +81,16 @@ img {
   width: fit-content;
 }
 
-:host ::ng-deep {
-  .swiper-wrapper {
-    align-items: center !important;
-    justify-content: center !important;
-    margin-top: -30px;
-  }
-  ion-card {
-      box-shadow: none !important;
-  }
+// :host ::ng-deep {
+//   .swiper-wrapper {
+//     align-items: center !important;
+//     justify-content: center !important;
+//     margin-top: -30px;
+//   }
+//   ion-card {
+//       box-shadow: none !important;
+//   }
 
-}
+// }
 
 
