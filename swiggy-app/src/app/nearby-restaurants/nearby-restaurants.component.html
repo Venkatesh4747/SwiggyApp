@@ -9,16 +9,18 @@
   <ion-card-content>
     <div *ngFor="let list of hotelLists">
       <ion-row>
-        <ion-col size="5">
-          <ion-card class="card-size">
-            <img [src]="list.imageUrl">
-          </ion-card>
-          <div class="position">
-            <div class="text-off">
-              {{list.off}}
-            </div>
-            <div class="text-upto">
-              {{list.upto}}
+        <ion-col class="relative" size="5">
+          <div class="flex-display">
+            <ion-card class="card-size">
+              <img [src]="list.imageUrl">
+            </ion-card>
+            <div class="position">
+              <div class="text-off">
+                {{list.off}}
+              </div>
+              <div class="text-upto">
+                {{list.upto}}
+              </div>
             </div>
           </div>
         </ion-col>

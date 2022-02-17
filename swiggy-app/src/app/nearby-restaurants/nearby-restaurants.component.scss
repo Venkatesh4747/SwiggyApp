@@ -17,6 +17,11 @@ img {
     display: flex;
     align-items: center;
 }
+.flex-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .margin-size {
     margin: 10% 0% 0% 0%;
@@ -45,12 +50,16 @@ ion-card-content {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    bottom: 8px;
-    right: 22px;
+    bottom: 16px;
+    // right: 60px;
     background: white;
     width: 80px;
-    height: 30px;
+    height: 38px;
     border-radius: 5px;
+}
+
+.relative{
+    position: relative;
 }
 .text-off {
     font-size: 15px;
@@ -132,4 +141,9 @@ a {
 
 .headerIcon {
     color: #f94d00;
+}
+
+ion-label {
+    font-weight: bolder;
+    font-size: 20px;
 }
