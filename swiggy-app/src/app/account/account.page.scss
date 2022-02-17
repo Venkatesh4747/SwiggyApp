@@ -1,0 +1,135 @@
+.padding{
+    padding-top: 10px;
+}
+.display {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 10px;
+}
+
+.text-color {
+    color: #f94d00;
+    font-size: 15px;
+}
+
+ion-card {
+    margin: 0%;
+}
+.text-align {
+    font-size: 10px;
+    color: gray;
+}
+h3 {
+    font-weight: bolder;
+}
+
+.text-size {
+    font-size: 13px;
+}
+ion-icon {
+    font-size: 20px;
+    color: gray;
+}
+
+:host ::ng-deep{
+    ion-accordion.accordion-animated > [slot=header] .ion-accordion-toggle-icon {
+        transition: 300ms transform cubic-bezier(0.25, 0.8, 0.5, 1);
+        color: gray;
+        font-size: 21px;
+    }
+    // .item-native {
+    //     padding-left: 0%;
+    // }
+}
+
+.text-decorate{
+    padding: 20px;
+    background: lightgrey;
+    ion-text {
+        color: gray;
+    }
+}
+
+ion-card-header {
+    // padding-left: 0%;
+    // padding-right: 0%;
+    padding: 0%;
+    font-weight: bolder;
+    color: black;
+    font-size: 15px;
+}
+
+.padding {
+    padding-left: 0%;
+}
+
+
+.text-align-center{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: gray;
+    font-weight: 700;
+    justify-content: center;
+    ion-icon {
+        color: green;
+    }
+}
+
+ion-card-subtitle {
+    font-size: 10px;
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    // margin-left: 6px;
+    // border-bottom: 1px dotted;
+}
+
+.border-bottom {
+    border-bottom: 1px dotted;
+    margin: 5px;
+}
+
+.text {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+// ion-button {
+//     width: 120px;
+//     --border-radius: 0%;
+// }
+
+.btn-re {
+    width: 100%;
+    --border-radius: 0%;
+    --border-color: #f94d00;
+    color: #f94d00;
+    font-weight: bolder;
+
+}
+
+.btn-order {
+    width: 100%;
+    --border-radius: 0%;
+    --border-color: black;
+    color: black;
+    font-weight: bolder;
+
+}
+
+ion-row {
+    font-size: 13px;
+}
+
+.dark-border {
+    border-bottom: 1px solid black;
+}

@@ -26,3 +26,10 @@ export interface popularCuisines {
     imageUrl: string;
     foodName: string;
 }
+
+export interface pastOrder {
+    hotelName: string;
+    city: string;
+    price: string;
+    date: string;
+}

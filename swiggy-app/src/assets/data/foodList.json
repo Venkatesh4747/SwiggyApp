@@ -219,6 +219,31 @@
                 "imageUrl": "https://w7.pngwing.com/pngs/36/27/png-transparent-roasted-chicken-with-lemons-roast-chicken-barbecue-chicken-buffalo-wing-roast-goose-chicken-food-animals-recipe-thumbnail.png"
             }
         ]
+    },
+    "data5": {
+        "pastOrder": [
+            {
+                "hotelName": "Food Mubarak (ECR)",
+                "city": "Annamalai Nagar",
+                "price": "₹133",
+                "foodName": "Pepper BBQ x 1",
+                "date": "January 15, 12:52 PM"
+            },
+            {
+                "hotelName": "Biriyani Paradaise",
+                "city": "45 feet road",
+                "price": "₹130",
+                "foodName": "chicken biriyani x 1",
+                "date": "May, 12:50 PM"
+            },
+            {
+                "hotelName": "Arcot",
+                "city": "Thatanchavedy",
+                "price": "₹200",
+                "foodName": "Mutton Briyani x 1",
+                "date": "Januvary 15, 12:52 PM"
+            }
+        ]
     }
 
 }

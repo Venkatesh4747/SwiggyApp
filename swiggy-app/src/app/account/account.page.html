@@ -1,9 +1,153 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>account</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-card class="padding">
+    <ion-item>
+      <ion-label>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="9">
+              <h3>VENKATESH</h3>
+              <p>8798541257 . venkatesh@gmail.com</p>
+            </ion-col>
+            <ion-col size="3" class="display">
+              <ion-text class="text-color">EDIT</ion-text>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-label>
+    </ion-item>
+    <ion-accordion-group>
+      <ion-accordion value="account">
+        <ion-item slot="header">
+          <ion-row>
+            <ion-col size="12">
+              <ion-label>My Account</ion-label>
+            </ion-col>
+            <ion-col class="text-align">
+              <ion-label>Address, Favourites, Offers & Settings</ion-label>
+            </ion-col>
+          </ion-row>
 
+        </ion-item>
+        <ion-list slot="content">
+          <ion-item slot="header">
+            <ion-icon name="home-outline" slot="start"></ion-icon>
+            <ion-label class="text-size">Manage Address</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="heart-outline" slot="start"></ion-icon>
+            <ion-label class="text-size">Favourites</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="gift-outline" slot="start"></ion-icon>
+            <ion-label class="text-size">Offers</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="settings-outline" slot="start"></ion-icon>
+            <ion-label class="text-size">Settings</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-accordion>
+
+      <ion-accordion value="payment">
+        <ion-item slot="header">
+          <ion-row>
+            <ion-col size="12">
+              <ion-label>Payments & Refunds</ion-label>
+            </ion-col>
+            <ion-col class="text-align">
+              <ion-label>Refund Status & Payment Modes</ion-label>
+            </ion-col>
+          </ion-row>
+
+        </ion-item>
+        <ion-list slot="content">
+          <ion-item slot="header">
+            <ion-icon name="cash-outline" slot="start"></ion-icon>
+            <ion-label class="text-size">Refund Status</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="card-outline" slot="start"></ion-icon>
+            <ion-label class="text-size">Payment Modes</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-accordion>
+
+      <ion-accordion value="money" toggle-icon="chevron-forward-outline">
+        <ion-item slot="header">
+          <ion-row>
+            <ion-col size="12">
+              <ion-label>Swiggy Money</ion-label>
+            </ion-col>
+            <ion-col class="text-align">
+              <ion-label>View Account Balance & Transactions History</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+      </ion-accordion>
+
+      <ion-accordion value="help" toggle-icon="chevron-forward-outline">
+        <ion-item slot="header">
+          <ion-row>
+            <ion-col size="12">
+              <ion-label>Help</ion-label>
+            </ion-col>
+            <ion-col class="text-align">
+              <ion-label>FAQs & Links</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+      </ion-accordion>
+    </ion-accordion-group>
+  </ion-card>
+  <div class="text-decorate">
+    <ion-text>PAST ORDERS</ion-text>
+  </div>
+
+  <ion-card>
+    <ion-card-content>
+      <div *ngFor="let order of pastOrder">
+        <ion-row>
+          <ion-col size="8" class="padding">
+            <ion-card-header>{{order.hotelName}}</ion-card-header>
+          </ion-col>
+          <ion-col size="4" class="text-align-center">
+            <ion-label>
+              Delivered
+            </ion-label>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <div class="display-flex">
+          <ion-label>{{order.city}}</ion-label>
+          <ionlabel>{{order.price}}</ionlabel>
+        </div>
+        <div class="border-bottom"></div>
+        <div class="text">
+          <ion-text>{{order.foodName}}</ion-text>
+          <ion-text>{{order.date}}</ion-text> 
+        </div>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="6">
+              <ion-button class="btn-re" fill="outline">REORDER</ion-button>
+            </ion-col>
+            <ion-col size="6">
+              <ion-button class="btn-order" fill="outline">RATE ORDER</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <div>
+          <ion-row>
+            <ion-col size="6">
+                <ion-text>You haven't rated this delivery yet</ion-text>
+            </ion-col>
+            <ion-col size="6">
+              <ion-text>You haven't rated this food yet</ion-text>
+            </ion-col>
+          </ion-row>
+          <div class="dark-border"></div>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
