@@ -1,0 +1,30 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-top {
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+}
+
+.text-bolder {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.text-color {
+    color: gray;
+    font-size: 12px;
+}
+
+ion-button {
+    margin-top: 20px;
+    --border-color: #f94d00;
+    color: #f94d00;
+    --border-radius: 0px;
+}
