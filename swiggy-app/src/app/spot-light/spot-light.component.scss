@@ -96,11 +96,17 @@
     align-items: center;
     position: absolute;
     bottom: 60px;
-    right: 22px;
+    // right: 22px;
     background: white;
     width: 97px;
     height: 30px;
     border-radius: 5px;
+}
+
+.flex-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-off {
