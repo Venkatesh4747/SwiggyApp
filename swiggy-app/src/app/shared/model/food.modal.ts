@@ -1,10 +1,27 @@
 export interface hotelDetails {
+    id: string,
     hotelName: string;
     rating: number;
     imageUrl: string;
     mins: string;
 }
 
+export interface foodDet {
+        cash: string;
+        city: string;
+        cost: string;
+        dishType: string;
+        hotelName: string;
+        id: string;
+        imageUrl: string;
+        km: string;
+        mins: string;
+        off: string;
+        rating: string;
+        upto: string;
+        coupon: string;
+        above: string;
+}
 export interface popularItem {
     foodName: string;
     imageUrl: string;
@@ -32,4 +49,9 @@ export interface pastOrder {
     city: string;
     price: string;
     date: string;
+}
+
+
+export interface foodDetails {
+    foodDetails: foodDet;
 }

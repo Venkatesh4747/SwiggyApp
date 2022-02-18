@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { hotelDetails } from '../../model/food.modal';
+import { FoodDetailsService } from '../../service/food-details.service';
 
 @Component({
   selector: 'app-slider',
@@ -16,8 +18,15 @@ export class SliderComponent implements OnInit {
 
   @Input() hotelLists: hotelDetails;  
 
-  constructor() { }
+  constructor(
+    private route: Router, private foodservice: FoodDetailsService
+  ) { }
 
   ngOnInit() {}
 
+  foodDetails(data) {
+    console.log(data)
+    this.foodservice.addData(data);
+    this.route.navigate([`/home/food-details/${data.id}`]);
+  }
 }

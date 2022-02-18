@@ -2,97 +2,138 @@
     "data": {
         "hotelDetails": [
             {
+                "id": "bana-leaf",
                 "hotelName": "Banana Leaf",
-                "rating": 4.3,
+                "rating": "4.3",
                 "imageUrl": "assets/images/biryani.jpg",
                 "mins": "46 mins",
                 "dishType": "South Indian",
                 "city": "Saram",
                 "cash": "₹250 for two",
                 "off": "50% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "3.0 kms",
+                "cost": "₹500",
+                "coupon": "MISSEDYOU",
+                "above": "ABOVE ₹149"
             },
             {
+                "id": "cake-world",
                 "hotelName": "Cake World",
-                "rating": 4.0,
+                "rating": "4.0",
                 "imageUrl": "assets/images/cake.jpg",
                 "mins": "35 mins",
                 "dishType": "South Indian, North Indian",
                 "city": "Heritage Town",
                 "cash": "₹150 for two",
                 "off": "40% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "9.0 kms",
+                "cost": "₹300",
+                "coupon": "MISSEDYOU",
+                "above": "ABOVE ₹149"
 
             },
             {
+                "id": "juice-shop",
                 "hotelName": "Juice Shop",
-                "rating": 4.5,
+                "rating": "4.5",
                 "imageUrl": "assets/images/juice.jpeg",
                 "mins": "20 mins",
                 "city": "IG square",
                 "cash": "₹50 for two",
                 "off": "50% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "3.0 kms",
+                "cost": "₹200",
+                "coupon": "MISSEDYOU",
+                "above": "ABOVE ₹149"
+
 
 
             },
             {
+                "id": "kfc",
                 "hotelName": "KFC",
-                "rating": 4.1,
+                "rating": "4.1",
                 "imageUrl": "assets/images/kfc.jpg",
                 "mins": "40 mins",
                 "city": "Heritage Town",
                 "cash": "₹250 for two",
                 "off": "50% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "2.0 kms",
+                "cost": "₹400",
+                "coupon": "PAYTMBANK150",
+                "above": "ABOVE ₹149"
 
 
             },
             {
+                "id": "bbq",
                 "hotelName": "BBQ",
-                "rating": 4.0,
+                "rating": "4.0",
                 "imageUrl": "assets/images/bbq.jpeg",
                 "mins": "35 mins",
                 "dishType": "North Indian",
                 "city": "Saram",
                 "cash": "₹450 for two",
                 "off": "50% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "3.0 kms",
+                "cost": "₹400",
+                "coupon": "PARTY",
+                "above": "ABOVE ₹149"
 
             },
             {
+                "id": "cake-world",
                 "hotelName": "Cake World",
-                "rating": 4.0,
+                "rating": "4.0",
                 "imageUrl": "assets/images/cake.jpg",
                 "mins": "35 mins",
                 "city": "lawspet",
                 "cash": "₹500 for two",
                 "off": "50% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "4.0 kms",
+                "cost": "₹400",
+                "coupon": "PAYTMSAVE",
+                "above": "ABOVE ₹150"
 
 
             },
             {
+                "id": "kfc",
                 "hotelName": "KFC",
-                "rating": 4.1,
+                "rating": "4.1",
                 "imageUrl": "assets/images/kfc.jpg",
                 "mins": "40 mins",
                 "dishType": "South Indian",
                 "city": "pondy",
                 "cash": "₹250 for two",
                 "off": "50% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "7.0 kms",
+                "cost": "₹400",
+                "coupon": "RUPAY100",
+                "above": "ABOVE ₹129"
 
             },
             {
+                "id": "cake-world",
                 "hotelName": "Cake World",
-                "rating": 4.0,
+                "rating": "4.0",
                 "imageUrl": "assets/images/cake.jpg",
                 "mins": "35 mins",
                 "city": "Nehru st",
                 "cash": "₹200 for two",
                 "off": "50% OFF",
-                "upto": "UPTO ₹100"
+                "upto": "UPTO ₹100",
+                "km": "5.0 kms",
+                "cost": "₹400",
+                "coupon": "PARTY",
+                "above": "ABOVE ₹100"
 
 
             }

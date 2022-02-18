@@ -16,7 +16,7 @@
   </ion-card-header>
   <ion-card-content>
     <ion-slides [options]="foodSlideOptions">
-      <ion-slide *ngFor="let foods of hotelLists">
+      <ion-slide *ngFor="let foods of hotelLists" (click)="foodDetails(foods)">
         <div class="flex-content">
           <div>
             <ion-card class="card-size">

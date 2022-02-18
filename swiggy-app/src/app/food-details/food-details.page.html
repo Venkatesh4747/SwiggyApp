@@ -1,0 +1,102 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button [text]="buttonText" [icon]="buttonIcon">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-icon class="margin-right" name="heart-outline" slot="primary"></ion-icon>
+    <ion-icon name="search-outline" slot="primary"></ion-icon>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-header>
+        <ion-card-title>{{foodDetails.hotelName}}</ion-card-title>
+        <ion-card-subtitle>{{foodDetails.dishType}}</ion-card-subtitle>
+        <ion-card-subtitle>{{foodDetails.city}} | {{foodDetails.km}}</ion-card-subtitle>
+      </ion-card-header>
+      <div class="border-bottom"> </div>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <div class="display">
+              <div>
+                <ion-icon name="star-outline" class="starIcon"></ion-icon>
+                <span class="text-dec">{{foodDetails.rating}}</span>
+                <span>
+                  <ion-icon class="starIcon" name="chevron-forward-outline"></ion-icon>
+                </span>
+              </div>
+              <div class="text-size">
+                <ion-text>Porton 8</ion-text>
+              </div>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="display">
+              <div>
+                <ion-text class="text-dec">{{foodDetails.mins}}</ion-text>
+              </div>
+              <div class="text-size">
+                <ion-text>Delivery Time</ion-text>
+              </div>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="display">
+              <div>
+                <ion-text class="text-dec">{{foodDetails.cost}}</ion-text>
+              </div>
+              <div class="text-size">
+                <ion-text>Cost for 2</ion-text>
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+        <div class="border-bottom"> </div>
+        <ion-row class="margin-top">
+          <ion-col size="6">
+            <ion-card>
+              <ion-row class="row-align">
+                <ion-col size="2">
+                  <ion-icon class="giftIcon" name="gift-outline"></ion-icon>
+                </ion-col>
+                <ion-col size="10">
+                  <ion-text class="text-decorate">{{foodDetails.off}}</ion-text>
+                  <span class="text-decorate"> {{foodDetails.upto}}</span>
+                </ion-col>
+                <ion-col>
+                  <ion-text>USE {{foodDetails.coupon}}</ion-text>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card>
+              <ion-row class="row-align">
+                <ion-col size="2">
+                  <ion-icon class="giftIcon" name="gift-outline"></ion-icon>
+                </ion-col>
+                <ion-col size="10">
+                  <ion-text class="text-decorate">{{foodDetails.off}}</ion-text>
+                  <span class="text-decorate"> {{foodDetails.upto}}</span>
+                </ion-col>
+                <ion-col>
+                  <ion-text>USE {{foodDetails.coupon}}</ion-text>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+
+
+</ion-content>

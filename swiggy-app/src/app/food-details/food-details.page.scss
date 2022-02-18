@@ -1,0 +1,82 @@
+ion-back-button {
+    color: gray;
+    font-weight: lighter;
+}
+
+ion-icon {
+    font-size: 23px;
+    color: gray;
+}
+
+.margin-right {
+    margin-right: 15px;
+}
+
+ion-card-title {
+    font-size: 20px;
+}
+
+ion-card-subtitle {
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.border-bottom {
+    border-bottom: 1px  dotted gray;
+}
+ion-card {
+    margin: 0% 0% 10% 0%;
+}
+ion-card-content {
+    padding: 0%;
+}
+ion-card-header {
+    padding: 0% 10% 0% 5%;   
+    margin-top: 15px;
+}
+
+.starIcon {
+    font-size: 13px;
+    color: black;
+    // margin-right: 5px;
+}
+
+.fontSize {
+    font-size: 13px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-dec {
+    font-weight: 500;
+    color: black;
+}
+
+.text-size {
+    font-size: 12px;
+}
+
+.text-decorate {
+    font-size: 11px;
+    font-weight: 500;
+    color: black;
+}
+
+.row-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.giftIcon {
+    color: #f94d00;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
